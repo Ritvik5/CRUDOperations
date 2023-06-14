@@ -4,14 +4,20 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome To CRUD operations on ArrayList and Dictionary Collection!!!\n");
+            //Console.WriteLine("Welcome To CRUD operations on ArrayList and Dictionary Collection!!!\n");
 
-            ArrayListOperations arrayList = new ArrayListOperations();
+            //ArrayListOperations arrayList = new ArrayListOperations();
 
-            arrayList.AddItems();
-            arrayList.DisplayItems();
-            arrayList.UpdateItems();
-            arrayList.DeleteItems();
+            //arrayList.AddItems();
+            //arrayList.DisplayItems();
+            //arrayList.UpdateItems();
+            //arrayList.DeleteItems();
+
+            DictionaryOperations dictionary = new DictionaryOperations();
+
+            dictionary.AddValues();
+            dictionary.UpdateValues();
+            dictionary.RemoveValues();
         }
     }
 }
